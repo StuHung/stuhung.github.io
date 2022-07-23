@@ -35,3 +35,12 @@ textarea {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#reset, #submit {
+    font-size: 20px;
+    width: 20%;
+}
+
+input,select:hover {
+    cursor: pointer;
+}
