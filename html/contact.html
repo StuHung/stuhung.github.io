@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+    <section class="background">
+        <nav class="containter">
+            <a href="../index.html"><img src="../img/images.png"
+                alt="Bookstore Logo"> </a>
+            <div class="header">
+                <h1>RMIT Bookstore</h1>
+            </div>    
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/category.html">Category</a></li>
+                    <li><a href="../html/book_detail.html">Book Detail</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                </ul>      
+            </div> 
+        </nav>
+    </section>
+    <div id="title">
+        <h1>CONTACT US</h1>
+    </div>
+    <section class="infomation">
+        <form action="../html/contact.html" method="post" 
+        enctype="multipart/form-data">
+            <ul>
+                <li>
+                    <label for="contact">Contact reason</label><br>
+                    <select name="contact" id="contact">
+                        <option value="Sell">I want to sell books</option>
+                        <option value="Buy">I want to buy books</option>
+                    </select>
+                </li><br><br>
+            <form target="_blank"></form>
+                <li>
+                    <label for="firstname">First name</label><br>
+                        <input required type="text" maxlength="30" 
+                        id="firstname" size="30"><br><br>
+                </li>
+                <li>
+                    <label for="lastname">Last Name</label><br>
+                        <input required type="text" maxlength="30" 
+                        id="lastname" size="30"><br><br>
+                </li> 
+                <li>
+                    <label>Email address</label><br>
+                        <input required type="email" maxlength="30"
+                        id="email" size="30"><br><br>
+                </li>
+                <li>
+                    <label>Phone number</label><br>
+                        <input required type="tel" maxlength="11" 
+                        minlength="9" id="phonenumber" size="30"><br><br>
+                </li>
+                <li>
+                    <label>How can we contact you?</label><br>
+                        <input type="radio" name="PCmethod" id="PCM1">
+                    <label for="PCM1">By Email</label><br>
+                        <input type="radio" name="PCmethod" id="PCM2">
+                    <label for="PCM2">By Phone</label><br><br>        
+                </li>
+                <li>
+                <label>Do you want to recieve our weekly newsletter?</label><br>
+                    <input type="radio" name="select" id="yes" checked="checked">     
+                <label for="yes">Yes, please</label><br>
+                    <input type="radio" name="select" id="no">
+                <label for="no">No, thanks</label>                    
+                </li><br>
+                <li>
+                    <p id="Notes">Notes(<i>optional</i>)</p>
+                    <label for="textarea"> </label><textarea name="textarea" id="textarea1" cols="50" rows="10"></textarea><br>
+                    <br><input type="checkbox" id="Term_services"><label for="Term_services">By clicking this checkbox, you have accepted to our Terms and Policy.</label><br>
+                    <br><input type="reset" name="reset-form" id="reset1">
+                    <input type="submit" value="submit" onclick="">
+                </li>
+            </ul>
+        </form>
+    </section>
+</body>
+<footer>
+    <section>
+        <nav id="footer">
+            <div class="Info">
+                <h1>About Us</h1>
+                <h2><i class="fa-solid fa-envelopes"></i>
+                Email: rmit@outlook.com</h2>
+                <h2><i class="fa-brands fa-facebook"></i>
+                Facebook: RMIT</h2>
+                <h2><i class="fa-solid fa-phone"></i>
+                Phone number: 09 999 999</h2>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/category.html">Category</a></li>
+                    <li><a href="../html/book_detail.html">Book Detail</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                </ul>      
+            </div>
+        </nav>
+    </section>
+    <div id="random">
+        <ul>
+            <li>Policy</li>
+            <li>Terms</li>
+            <li>Copyright</li>
+        </ul>
+    </div>    
+</footer>
+</html>

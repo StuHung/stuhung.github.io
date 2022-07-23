@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+.content img {
+    padding-left: 18%;
+    margin-top: 25%;
+    width: 20%;
+    height: 20%;
+}
+
+.purchase {
+    width: 45%;
+    float: right;
+    padding-left: 20px;
+    padding-top: 100px;
+    text-align: center;
+    height: auto;
+    height: 700px;
+}
+
+.purchase h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+
+.purchase button{
+    border: none;
+    outline: 0;
+    padding: 25px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+}
+
+.purchase button:hover{
+    opacity: 0.5;
+    background-color: red;
+}
+
+.content ul li {
+    list-style-type: none;
+}
+

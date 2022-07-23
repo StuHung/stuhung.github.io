@@ -1,0 +1,12 @@
+footer section {
+    padding: 0;
+    margin-left: 5%;
+}
+
+#random ul li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    padding-left: 22%;
+    font-size: 17px;
+}
